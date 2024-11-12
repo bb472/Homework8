@@ -1,7 +1,7 @@
-from app import add
+from app import sub
 
 
 
-def test_add():
+def test_sub():
     """Testing the Start"""
-    assert add(2,3) == 5
+    assert sub(2,3) == -1
